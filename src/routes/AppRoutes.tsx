@@ -7,8 +7,8 @@ import Cart from "../pages/Cart";
 export default function AppRoutes() {
   return (
     <Routes>
-      <Route path="/" element={<Products />} />
-      <Route path="/cart" element={<Cart />} />
+      <Route path="/customer" element={<Products />} />
+      <Route path="/customer/cart" element={<Cart />} />
     </Routes>
   );
 }
